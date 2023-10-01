@@ -22,5 +22,5 @@ server.use((req, res) => {
 });
 
 server.listen(process.env.PORT, () => {
-  console.log("Rodando o servidor");
+  console.log("Server running...");
 });
